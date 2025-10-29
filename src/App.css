@@ -10,22 +10,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(135deg, #89CFF0, #4682B4, #0F3D91);
-  color: #014e66;
-  padding: 40px 20px;
+  background: linear-gradient(135deg, #0F3D91, #4682B4, #89CFF0);
+  color: #9feff7;
+  padding: 40px 20px;  
   animation: gradientShift 10s ease infinite;
   background-size: 200% 200%;
+}
+.text{
+  color: #ffffff;
 }
  
 /* Container principal */
 .app-container {
   width: 100%;
   max-width: 650px;
-  background: #08265f(1, 106, 155, 0.39);
+  background: #0059ff(1, 106, 155, 0.39);
   backdrop-filter: blur(20px);
   border-radius: 20px;
   padding: 35px;
   box-shadow: 0 10px 40px rgba(1, 98, 209, 0.4);
-  border: 1px solid rgba(0, 98, 211, 0.1);
+  border: 1px solid rgba(240, 72, 22, 0.1);
   animation: fadeIn 0.8s ease;
 }

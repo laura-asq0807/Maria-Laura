@@ -67,6 +67,7 @@ function App() {
   return (
     <div>
       <h1>Ponto de coleta</h1>
+      <br></br>
 
       {loadingSpots && <h1>Carregando pontos...</h1>}
 
@@ -85,11 +86,12 @@ function App() {
           </select>
         </div>
       )}
-
+      <br></br>
       {loadingSpotData && <h1>Carregando dados...</h1>}
+      
 
       {lastSpotData && (
-        <div>
+        <div class ="text">
           <h1>Dados do ponto de coleta</h1>
           <h3>{Date(lastSpotData.timestamp)}</h3>
           <h3>Temperatura: {lastSpotData.temperature}</h3>
